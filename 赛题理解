@@ -1,0 +1,25 @@
+Train.csv
+
+name - 汽车编码
+regDate - 汽车注册时间
+model - 车型编码
+brand - 品牌
+bodyType - 车身类型
+fuelType - 燃油类型
+gearbox - 变速箱
+power - 汽车功率
+kilometer - 汽车行驶公里
+notRepairedDamage - 汽车有尚未修复的损坏
+regionCode - 看车地区编码
+seller - 销售方
+offerType - 报价类型
+creatDate - 广告发布时间
+price - 汽车价格
+v_0', 'v_1', 'v_2', 'v_3', 'v_4', 'v_5', 'v_6', 'v_7', 'v_8', 'v_9', 'v_10', 'v_11', 'v_12', 'v_13','v_14'（根据汽车的评论、标签等大量信息得到的embedding向量）【人工构造 匿名特征】 　
+数字全都脱敏处理，都为label encoding形式，即数字形式
+
+
+此该题为传统的数据挖掘问题，通过数据科学以及机器学习深度学习的办法来进行建模得到结果。
+此题是一个典型的回归问题。
+主要应用xgb、lgb、catboost，以及pandas、numpy、matplotlib、seabon、sklearn、keras等等数据挖掘常用库或者框架来进行数据挖掘任务。
+通过EDA来挖掘数据的联系和自我熟悉数据。
